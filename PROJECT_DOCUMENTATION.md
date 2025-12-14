@@ -119,3 +119,24 @@ These structures organize data hierarchically or interconnectedly.
 | :--- | :--- |
 | [bfs(SimpleGraph graph, int start)](file:///d:/Coding/Data-Structure/Data_Structure_visualizer/src/core/algorithms/GraphAlgorithms.java#8-37) | Breadth-First Search. Uses a [Queue](file:///d:/Coding/Data-Structure/Data_Structure_visualizer/src/ui/panels/QueueVisualizerFrame.java#132-187) and `Set<Visited>` to explore layer by layer. |
 | [dfs(SimpleGraph graph, int start)](file:///d:/Coding/Data-Structure/Data_Structure_visualizer/src/core/algorithms/GraphAlgorithms.java#38-47) | Depth-First Search. Uses recursion and `Set<Visited>` to explore as deep as possible first. |
+
+---
+
+## 4. How to Run Locally
+
+To run this project on your own computer, follow these steps:
+
+1.  **Get the Source Code**:
+    *   Visit the GitHub repository: [https://github.com/Amir-shah1/Data_Structure_Visualizer/tree/master](https://github.com/Amir-shah1/Data_Structure_Visualizer/tree/master)
+    *   Clone the repository to your local machine or download the ZIP file.
+
+2.  **Open in Editor**:
+    *   Open the project folder in **VS Code** or any other Java-compatible editor.
+
+3.  **Run the Application**:
+    *   Open your terminal in the project's root directory.
+    *   Run the following command:
+        ```bash
+        java ./src/app/Main.java
+        ```
+    *   Alternatively, you can move to the `src/app` directory and run the application from there.
